@@ -1,12 +1,14 @@
-# Analyzing Human Questioning Behavior and Causal Curiosity through Natural Queries
+# _Quriosity_: Analyzing Human Questioning Behavior and Causal Inquiry through Curiosity-Driven Queries
 
 ![Related Work](related_work.png)
 
-<p align="center"> Fig 1: Our Natquest dataset propose a different paradigm to ask open-ended natural human inquiries, in contrast to previous tasks (e.g., reading comprehension, commonsense causality, and formal causal inference) which craft questions restricted to ones that humans already understand well and purposefully test LLMs with.
+<p align="center"> Table 1: Comparison of the source of questions for various datasets, including datasets commonly used in LLM
+testing. Given their curated nature, the questions in these datasets are not suitable for use in studying curiosity-driven
+questioning behavior.
 </p>
 
 
-This repository accompanies our research paper titled "**Analyzing Human Questioning Behavior and Causal Curiosity through Natural Queries**" by *Roberto Ceraolo\*, Dmitrii Kharlapenko\*, Ahmad Khan, Amélie Reymond, Rada Mihalcea, Bernhard Schölkopf, Mrinmaya Sachan, Zhijing Jin*.
+This repository accompanies our research paper titled "**_Quriosity_: Analyzing Human Questioning Behavior and Causal Inquiry through Curiosity-Driven Queries**" by *Roberto Ceraolo\*, Dmitrii Kharlapenko\*, Ahmad Khan\*, Amélie Reymond, Rada Mihalcea, Bernhard Schölkopf, Mrinmaya Sachan, Zhijing Jin*.
 The repo contains the code that we used to generate the dataset, the results and the plots that we used in the paper. The dataset will soon be published on the Hugging Face Hub.
 
 ## Repository Structure
@@ -70,7 +72,7 @@ This structure allows for comprehensive analysis of question types, sources, and
 
 Table 1: Our dataset equally covers questions from the three source types: human-to-search-engine queries (H-to-SE), human-to-human interactions (H-to-H), and human-to-LLM interactions (H-to-LLM).
 
-| Category | Non-Natural Questions | NatQuest |
+| Category | Curated Questions | Quriosity |
 |----------|------------------------|----------|
 | **Open-Endedness** |
 | Open-Ended | 30% | 68% |
@@ -82,7 +84,7 @@ Table 1: Our dataset equally covers questions from the three source types: human
 | Evaluating | 11.54% | 13.74% |
 | Creating | 0.17% | 13.62% |
 
-Table 2: Comparison of non-natural questions in curated tests and our NatQuest in terms of open-endedness and cognitive complexity.
+Table 2: Comparison of questions in curated tests and our Quriosity in terms of open-endedness and cognitive complexity.
 
 
 ## Code Setup
